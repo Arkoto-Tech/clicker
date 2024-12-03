@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clicker Game</h1>
+        <p>Clicks: <span id="score">0</span></p>
+        <button id="clickButton">Click me!</button>
+
+        <h2>Rank: <span id="rank">Newbie</span></h2>
+        <p>Next Rank: <span id="nextRankClicks">50</span> Clicks</p>
+
+        <h2>Upgrades</h2>
+        <div class="upgrades">
+            <button id="buyMultiplier">Buy Multiplier (x2) - <span id="multiplierPrice">100</span> Clicks</button>
+            <button id="buyAutoClicker">Buy Auto-Clicker - <span id="autoClickerPrice">200</span> Clicks</button>
+        </div>
+
+        <h2>Rewards</h2>
+        <div id="rewardSection">
+            <p>Reach certain milestones to unlock rewards!</p>
+        </div>
+
+        <button id="resetButton" class="hidden">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
